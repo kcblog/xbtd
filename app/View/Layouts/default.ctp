@@ -46,6 +46,7 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li<?php echo ($this->params['pass'][0] == 'home' ? ' class="active"' : ''); ?>><?php echo $this->Html->link('主頁', array('action' => 'display', 'home'), array('class' => 'navbar-brand')); ?></li>
+					<li<?php echo ($this->params['pass'][0] == 'fsgj' ? ' class="active"' : ''); ?>><?php echo $this->Html->link('法師攻擊計算', array('action' => 'display', 'fsgj', 'ext' => 'html'), array('class' => 'navbar-brand')); ?></li>
 					<li<?php echo ($this->params['pass'][0] == 'wjlb' ? ' class="active"' : ''); ?>><?php echo $this->Html->link('武將列表', array('action' => 'display', 'wjlb', 'ext' => 'html'), array('class' => 'navbar-brand')); ?></li>
 					<li<?php echo ($this->params['pass'][0] == 'zbdl' ? ' class="active"' : ''); ?>><?php echo $this->Html->link('裝備掉落', array('action' => 'display', 'zbdl', 'ext' => 'html'), array('class' => 'navbar-brand')); ?></li>
 					<li<?php echo ($this->params['pass'][0] == 'jnb' ? ' class="active"' : ''); ?>><?php echo $this->Html->link('技能升級', array('action' => 'display', 'jnsj', 'ext' => 'html'), array('class' => 'navbar-brand')); ?></li>
